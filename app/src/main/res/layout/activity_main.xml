@@ -15,6 +15,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView20"
+        android:progressBackgroundTint="@color/charcoal"
+        android:progressTint="@color/charcoal"
         app:layout_constraintWidth_max="@dimen/MaxWidth" />
 
     <TextView
@@ -165,8 +167,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:text="@string/TextBright"
+        app:layout_constraintStart_toStartOf="@+id/seekBar"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/TextTitle"
+        android:textSize="30dp"
         app:layout_constraintStart_toStartOf="@+id/seekBar"
         app:layout_constraintTop_toTopOf="parent" />
 

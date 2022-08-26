@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CameraController</string>
+    <string name="TextBright">Brightness</string>
+    <string name="MinValue">0</string>
+    <string name="MaxBrightValue">255</string>
+    <string name="TextContrast">Contrast</string>
+    <string name="MaxConstValue">191</string>
+    <string name="TextWhiteBal">White Balance</string>
+    <string name="MaxWBValue">6500</string>
+    <string name="TextZoom">Zoom</string>
+    <string name="MaxZoomValue">46</string>
+    <string name="MinZoomValue">1</string>
+</resources>
